@@ -10,4 +10,4 @@ test ('The string has too many characters', () => {
 
 test ('The string is too short', () => {
     expect(() => stringLength('')).toThrow(Error);
-})
+});
